@@ -1,0 +1,294 @@
+{
+  "status": "success",
+  "message": "Fetched all tickets successfully",
+  "tickets": [
+    {
+      "id": 1001,
+      "title": "Payment Gateway Error - Transaction Timeout",
+      "description": "Customer experienced a timeout during checkout process while attempting to purchase Premium Business Plan. Payment of $299.99 was debited from their account but order confirmation was not received. Requires immediate investigation and refund processing.",
+      "customer": "Alexander Mitchell",
+      "priority": "URGENT",
+      "status": "Open",
+      "createdAt": "01/15/2024"
+    },
+    {
+      "id": 1002,
+      "title": "API Rate Limit Exceeded - Third Party Integration",
+      "description": "Enterprise client's CRM integration is failing due to API rate limit being exceeded. Their automated workflows are disrupted affecting customer data synchronization. Current limit: 1000 requests/hour, they need 2500 requests/hour.",
+      "customer": "TechCorp Solutions Inc.",
+      "priority": "HIGH",
+      "status": "Open",
+      "createdAt": "01/16/2024"
+    },
+    {
+      "id": 1003,
+      "title": "Database Connection Pool Exhaustion",
+      "description": "Customer's application is experiencing intermittent connection failures during peak hours (2-4 PM EST). Error logs show connection pool exhaustion. They're losing approximately $500/hour in revenue during outages.",
+      "customer": "Emma Rodriguez",
+      "priority": "URGENT",
+      "status": "Open",
+      "createdAt": "01/17/2024"
+    },
+    {
+      "id": 1004,
+      "title": "SSL Certificate Renewal Failed",
+      "description": "Customer's website SSL certificate failed to auto-renew causing browser security warnings. Their e-commerce site is now showing 'Not Secure' warnings affecting customer trust and sales conversion rates.",
+      "customer": "Marcus Thompson",
+      "priority": "MEDIUM",
+      "status": "Open",
+      "createdAt": "01/18/2024"
+    },
+    {
+      "id": 1005,
+      "title": "Multi-Factor Authentication Loop Error",
+      "description": "Customer is stuck in an infinite MFA verification loop. After entering the correct OTP, the system redirects back to MFA prompt. Unable to access dashboard for 48+ hours. Phone number verified as correct.",
+      "customer": "Sarah Chen-Williams",
+      "priority": "DEFAULT",
+      "status": "Open",
+      "createdAt": "01/19/2024"
+    },
+    {
+      "id": 1006,
+      "title": "Bulk Data Export Memory Overflow",
+      "description": "Customer attempting to export 2.5M records encounters memory overflow error. Export process fails at 45% completion. They need this data for quarterly audit compliance by January 31st deadline.",
+      "customer": "GlobalTech Analytics",
+      "priority": "HIGH",
+      "status": "Open",
+      "createdAt": "01/20/2024"
+    },
+    {
+      "id": 1007,
+      "title": "Webhook Delivery Failure - 502 Bad Gateway",
+      "description": "Customer's webhook endpoints are receiving 502 Bad Gateway responses for the past 72 hours. Critical order notifications are not being delivered to their inventory management system causing stock discrepancies.",
+      "customer": "RetailMax Distribution",
+      "priority": "MEDIUM",
+      "status": "Open",
+      "createdAt": "01/21/2024"
+    },
+    {
+      "id": 1008,
+      "title": "GDPR Data Deletion Request Incomplete",
+      "description": "Customer submitted GDPR Article 17 'Right to be Forgotten' request 15 days ago. While main profile was deleted, backup systems and cached data still contain personal information. Legal compliance at risk.",
+      "customer": "Victoria Larsson",
+      "priority": "LOW",
+      "status": "Open",
+      "createdAt": "01/22/2024"
+    },
+    {
+      "id": 1009,
+      "title": "CDN Cache Invalidation Not Working",
+      "description": "Customer updated their website content 6 hours ago but changes are not reflecting globally. CDN cache invalidation requests return success but old content persists in 15+ edge locations worldwide.",
+      "customer": "Phoenix Creative Agency",
+      "priority": "DEFAULT",
+      "status": "Open",
+      "createdAt": "01/23/2024"
+    },
+    {
+      "id": 1010,
+      "title": "OAuth 2.0 Scope Permission Escalation",
+      "description": "Customer's application is requesting elevated permissions that weren't part of initial OAuth consent. Users are receiving unexpected permission prompts causing 67% drop in successful authentication flows.",
+      "customer": "DevTools Pro Ltd",
+      "priority": "URGENT",
+      "status": "Open",
+      "createdAt": "01/24/2024"
+    },
+    {
+      "id": 1011,
+      "title": "Real-time WebSocket Connection Dropping",
+      "description": "Customer's real-time trading application experiences WebSocket disconnections every 3-7 minutes. Reconnection attempts succeed but cause data gaps in live market feeds affecting trading decisions.",
+      "customer": "QuantTrade Systems",
+      "priority": "HIGH",
+      "status": "Open",
+      "createdAt": "01/25/2024"
+    },
+    {
+      "id": 1012,
+      "title": "Elasticsearch Index Corruption Detected",
+      "description": "Customer's search functionality returning inconsistent results due to index corruption. Search queries for products containing 'wireless' return 0 results despite 1,247 matching products in the database.",
+      "customer": "Electronics Warehouse",
+      "priority": "MEDIUM",
+      "status": "Open",
+      "createdAt": "01/26/2024"
+    },
+    {
+      "id": 1013,
+      "title": "Container Orchestration Resource Limits",
+      "description": "Customer's Kubernetes pods are being terminated due to memory limits during traffic spikes. Current allocation: 2GB RAM, actual usage peaks at 3.2GB during promotional campaigns causing service disruptions.",
+      "customer": "StreamLine Media",
+      "priority": "LOW",
+      "status": "Open",
+      "createdAt": "01/27/2024"
+    },
+    {
+      "id": 1014,
+      "title": "JWT Token Signature Validation Error",
+      "description": "Customer's mobile app users experiencing random logout issues. JWT tokens are being rejected with 'invalid signature' errors despite being within expiration time. Affects 23% of iOS users specifically.",
+      "customer": "FitTrack Health App",
+      "priority": "DEFAULT",
+      "status": "Open",
+      "createdAt": "01/28/2024"
+    },
+    {
+      "id": 1015,
+      "title": "SMTP Server Blacklist Detection",
+      "description": "Customer's transactional emails (password resets, receipts) are being marked as spam or blocked entirely. IP address 192.168.45.112 appears on multiple blacklists. Email delivery rate dropped to 34%.",
+      "customer": "NotifyHub Services",
+      "priority": "HIGH",
+      "status": "Open",
+      "createdAt": "01/29/2024"
+    },
+    {
+      "id": 1016,
+      "title": "Terraform State File Corruption",
+      "description": "Customer's infrastructure deployment pipeline failed due to corrupted Terraform state file. Unable to apply changes or rollback. Production environment is stable but no updates can be deployed.",
+      "customer": "CloudFirst Engineering",
+      "priority": "MEDIUM",
+      "status": "Open",
+      "createdAt": "01/30/2024"
+    },
+    {
+      "id": 1017,
+      "title": "GraphQL Query Complexity Threshold Exceeded",
+      "description": "Customer's dashboard loading extremely slowly due to GraphQL queries exceeding complexity limits. Nested relationship queries timing out after 30 seconds. Need query optimization or limit adjustment.",
+      "customer": "DataViz Solutions",
+      "priority": "LOW",
+      "status": "Open",
+      "createdAt": "01/31/2024"
+    },
+    {
+      "id": 1018,
+      "title": "Redis Cluster Split-Brain Syndrome",
+      "description": "Customer's caching layer experiencing split-brain condition causing data inconsistencies. Session data differs between nodes leading to users being randomly logged out or seeing stale information.",
+      "customer": "SessionManager Corp",
+      "priority": "DEFAULT",
+      "status": "Open",
+      "createdAt": "02/01/2024"
+    },
+    {
+      "id": 1019,
+      "title": "Certificate Authority Chain Validation Error",
+      "description": "Customer's API clients failing SSL handshake due to incomplete certificate chain. Root CA certificate missing from server configuration. Mobile apps showing 'untrusted certificate' warnings.",
+      "customer": "SecureAPI Gateway",
+      "priority": "HIGH",
+      "status": "Open",
+      "createdAt": "02/02/2024"
+    },
+    {
+      "id": 1020,
+      "title": "Microservice Circuit Breaker False Positives",
+      "description": "Customer's order processing system circuit breakers triggering prematurely during normal load. Threshold set at 5% error rate but network latency spikes cause false positives, blocking 40% of valid orders.",
+      "customer": "FastCommerce Platform",
+      "priority": "MEDIUM",
+      "status": "Open",
+      "createdAt": "02/03/2024"
+    },
+    {
+      "id": 1021,
+      "title": "MongoDB Replica Set Primary Election Failure",
+      "description": "Customer's database cluster unable to elect primary node after maintenance window. All nodes stuck in secondary state causing read-only mode. Application writes failing for 45+ minutes.",
+      "customer": "DataStream Analytics",
+      "priority": "LOW",
+      "status": "Open",
+      "createdAt": "02/04/2024"
+    },
+    {
+      "id": 1022,
+      "title": "Content Security Policy Violation Blocking Assets",
+      "description": "Customer's recent CSP implementation blocking legitimate third-party resources including payment processors and analytics. Checkout conversion rate dropped 89% since CSP deployment yesterday.",
+      "customer": "ShopFlex E-commerce",
+      "priority": "DEFAULT",
+      "status": "Open",
+      "createdAt": "02/05/2024"
+    },
+    {
+      "id": 1023,
+      "title": "Apache Kafka Partition Rebalancing Issues",
+      "description": "Customer's event streaming pipeline experiencing excessive partition rebalancing causing message processing delays. Consumer groups frequently triggering rebalances affecting real-time data processing.",
+      "customer": "EventFlow Technologies",
+      "priority": "URGENT",
+      "status": "Open",
+      "createdAt": "02/06/2024"
+    },
+    {
+      "id": 1024,
+      "title": "DNS Propagation Delay for Custom Domain",
+      "description": "Customer's custom domain (app.clientdomain.com) showing DNS propagation delays in Asian regions. Users in Japan, Singapore, and Hong Kong unable to access application for 6+ hours.",
+      "customer": "GlobalReach Solutions",
+      "priority": "MEDIUM",
+      "status": "Open",
+      "createdAt": "02/07/2024"
+    },
+    {
+      "id": 1025,
+      "title": "Load Balancer Health Check False Negatives",
+      "description": "Customer's application instances being marked unhealthy despite functioning correctly. Health check endpoint /health returning 200 but load balancer routing traffic to fewer instances causing performance degradation.",
+      "customer": "ScaleMax Infrastructure",
+      "priority": "HIGH",
+      "status": "Open",
+      "createdAt": "02/08/2024"
+    },
+    {
+      "id": 1026,
+      "title": "RabbitMQ Message Queue Deadlock Condition",
+      "description": "Customer's message processing stuck in deadlock condition. Messages accumulating in queue (currently 45,000+ pending) but consumers unable to process due to resource contention on shared database connections.",
+      "customer": "MessageFlow Systems",
+      "priority": "LOW",
+      "status": "Open",
+      "createdAt": "02/09/2024"
+    },
+    {
+      "id": 1027,
+      "title": "S3 Cross-Region Replication Lag",
+      "description": "Customer's disaster recovery setup experiencing 45+ minute replication lag between us-east-1 and eu-west-1. Recent objects not appearing in backup region within acceptable RTO of 15 minutes.",
+      "customer": "BackupPro Services",
+      "priority": "DEFAULT",
+      "status": "Open",
+      "createdAt": "02/10/2024"
+    },
+    {
+      "id": 1028,
+      "title": "Docker Registry Pull Rate Limit Exceeded",
+      "description": "Customer's CI/CD pipeline failing due to Docker Hub pull rate limits. Build processes timing out during image pull phase. Anonymous pulls exceeded 100/6hrs limit, authenticated pulls at 200/6hrs limit.",
+      "customer": "DevOps Automation Co",
+      "priority": "MEDIUM",
+      "status": "Open",
+      "createdAt": "02/11/2024"
+    },
+    {
+      "id": 1029,
+      "title": "ElasticSearch Cluster Yellow State Recovery",
+      "description": "Customer's search cluster stuck in yellow state for 72+ hours after node failure. Primary shards healthy but replica shards unallocated. Search performance degraded and no fault tolerance available.",
+      "customer": "SearchTech Solutions",
+      "priority": "HIGH",
+      "status": "Open",
+      "createdAt": "02/12/2024"
+    },
+    {
+      "id": 1030,
+      "title": "API Gateway Lambda Cold Start Latency",
+      "description": "Customer's serverless API experiencing 8-12 second response times due to Lambda cold starts. Functions written in Java with large dependency trees. P99 latency exceeding acceptable 2 second SLA.",
+      "customer": "ServerlessTech Inc",
+      "priority": "LOW",
+      "status": "Open",
+      "createdAt": "02/13/2024"
+    }
+  ],
+  "metadata": {
+    "totalTickets": 30,
+    "openTickets": 30,
+    "urgentPriorityTickets": 4,
+    "highPriorityTickets": 6,
+    "mediumPriorityTickets": 6,
+    "defaultPriorityTickets": 6,
+    "lowPriorityTickets": 8,
+    "averageResolutionTime": "4.2 hours",
+    "lastUpdated": "02/13/2024",
+    "departmentDistribution": {
+      "infrastructure": 12,
+      "security": 6,
+      "database": 5,
+      "api": 4,
+      "networking": 3
+    }
+  }
+}

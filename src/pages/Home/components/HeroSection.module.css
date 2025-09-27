@@ -1,0 +1,32 @@
+/* Marquee Styles */
+.marqueeContainer {
+  background: linear-gradient(to right, #632ee3, #00827a);
+  color: yellow;
+  padding: 10px 0;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.marqueeContent {
+  white-space: nowrap;
+  animation: marquee 25s linear infinite;
+}
+
+.marqueeContent:hover {
+  animation-play-state: paused;
+}
+
+.marqueeItem {
+  margin: 0 32px;
+  font-weight: 400;
+}
+
+/* Keyframes */
+@keyframes marquee {
+  0% {
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}

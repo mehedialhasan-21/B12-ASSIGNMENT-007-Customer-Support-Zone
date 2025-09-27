@@ -1,0 +1,52 @@
+{
+  "name": "Customer Support Zone | CS - Ticket System",
+  "short_name": "CSZone",
+  "description": "A professional customer support ticket system where customers can raise tickets, track statuses, and get quick support.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "background_color": "#f9fafb",
+  "theme_color": "#16a34a",
+  "categories": ["productivity", "business", "utilities", "support"],
+  "icons": [
+    {
+      "src": "/assets/icons/manifest-icons/icon16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/manifest-icons/icon24.png",
+      "sizes": "24x24",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/manifest-icons/icon32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/manifest-icons/icon64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/manifest-icons/icon128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/manifest-icons/icon256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/manifest-icons/icon512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
